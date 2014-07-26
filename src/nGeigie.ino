@@ -300,7 +300,7 @@ void SendDataToServer(float CPM) {
 	client.print(apiKey);
 	client.println(" HTTP/1.1");
 	client.println("User-Agent: Arduino");
-	client.println("Host: 176.56.236.75");
+	client.println("Host: 107.161.164.166");
 	client.print("Content-Length: ");
 	client.println(strlen(json_buf));
 	client.println("Content-Type: application/json");
