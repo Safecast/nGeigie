@@ -19,7 +19,7 @@ byte macAddress[] = { 0xDA, 0xD1, 0xBE, 0x60, 0x0D, 0x00 };
 // The IP address will be dependent on your local network:
 EthernetClient client;
 IPAddress localIP (192, 168, 100, 40);		// fallback local IP address if no DHCP
-IPAddress serverIP(176, 56, 236, 75 );
+IPAddress serverIP(107, 161, 164, 166 );
 
 
 // This is specific to the Uno Ethernet board
